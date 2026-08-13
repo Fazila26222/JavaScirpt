@@ -11,5 +11,16 @@ function ChageText(){
     for(let i = 0 ; i < heading.length; i++){
         heading[i].style.color="green";
     }
+    let firsCourse = document.querySelector(".cursese");
+    firsCourse.style.fontSize = "34px";
+
+    let cursese = document.querySelectorAll(".cursese");
+
+    cursese.forEach(function(item){
+        item.style.border="1px solid green";
+        item.style.padding = "10px";
+    })
+
+    
 }
 
