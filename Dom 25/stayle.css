@@ -1,0 +1,10 @@
+.box{
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(205, 206, 205);
+    align-items: center;
+}
+.active{
+    background-color: #000;
+}
